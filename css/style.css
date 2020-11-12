@@ -136,15 +136,15 @@ header {
 
 .testo h1 {
   font-size: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
-.testo p{
-  margin-bottom: 30px;
+.jumbotron .informazioni .testo p{
+  margin-bottom: 40px;
 }
 
 .testo ul li {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .testo ul li a{
