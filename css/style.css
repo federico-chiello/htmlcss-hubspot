@@ -113,6 +113,11 @@ header {
 /* / navbar-bottom */
 
 /* Inizio jumbotron */
+.jumbotron {
+  height: 420px;
+  width: 50%;
+  background-color: lightgreen;
+}
 
 /* / jumbotron */
 
