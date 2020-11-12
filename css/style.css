@@ -26,14 +26,12 @@ body {
 
 .contenitore {
   width: 100%;
-  background-color: lightgreen;
 }
 
 .container {
   width: 80%;
   height: 100%;
   margin: 0 auto;
-  /* background-color: violet; */
 }
 
 ul li {
@@ -58,12 +56,10 @@ i {
 /* Inizio intestazione */
 header {
   height: 900px;
-  background-color: blue;
 }
 
 .header-navbar {
   height: 270px;
-  /* background-color: grey; */
 }
 
 /* Navbar-top */
@@ -122,7 +118,6 @@ header {
 .jumbotron {
   height: 630px;
   width: 100%;
-  /* background-color: lightgreen; */
   background-image: url('../img/jumbotron.png');
   background-size: 100%;
   position: relative;
