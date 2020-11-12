@@ -119,6 +119,7 @@ header {
   width: 100%;
   /* background-color: lightgreen; */
   background-image: url('../img/jumbotron.png');
+  background-size: 120%;
 }
 
 .informazioni {
