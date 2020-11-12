@@ -6,6 +6,7 @@
 
 body {
   background: green;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Classi riutilizzabili */
@@ -130,6 +131,19 @@ header {
 .informazioni h1 {
   font-size: 50px;
   margin-bottom: 30px;
+}
+
+.informazioni p{
+  margin-bottom: 30px;
+}
+
+.informazioni ul li {
+  margin-bottom: 30px;
+}
+
+.informazioni ul li a{
+  padding: 20px;
+  background-color: rgb(251, 121, 65);
 }
 
 /* / jumbotron */
