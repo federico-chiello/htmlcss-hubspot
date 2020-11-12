@@ -24,6 +24,11 @@ body {
   float: right;
 }
 
+.contenitore {
+  width: 100%;
+  background-color: lightgreen;
+}
+
 .container {
   width: 80%;
   height: 100%;
@@ -119,7 +124,7 @@ header {
   width: 100%;
   /* background-color: lightgreen; */
   background-image: url('../img/jumbotron.png');
-  background-size: 120%;
+  background-size: 100%;
 }
 
 .informazioni {
