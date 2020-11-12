@@ -38,6 +38,11 @@ header {
   background-color: lightblue;
 }
 
+.header-nav {
+  height: 30%;
+  background-color: grey;
+}
+
 /* / intestazione */
 
 /* Inizio corpo principale */
