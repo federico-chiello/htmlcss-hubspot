@@ -125,6 +125,7 @@ header {
   /* background-color: lightgreen; */
   background-image: url('../img/jumbotron.png');
   background-size: 100%;
+  position: relative;
 }
 
 .informazioni {
@@ -143,6 +144,7 @@ header {
 .testo h1 {
   font-size: 50px;
   margin-bottom: 40px;
+  color: #33475B;
 }
 
 .jumbotron .informazioni .testo p{
@@ -156,6 +158,16 @@ header {
 .testo ul li a{
   padding: 20px;
   background-color: rgb(251, 121, 65);
+}
+
+.jumbotron-bottom {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(161, 230, 211);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: 1px solid black;
 }
 
 /* / jumbotron */
