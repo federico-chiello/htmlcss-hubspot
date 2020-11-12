@@ -117,6 +117,19 @@ header {
   height: 420px;
   width: 50%;
   background-color: lightgreen;
+  position: relative;
+}
+
+.informazioni {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  transform: translateY(-15%);
+}
+
+.informazioni h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 
 /* / jumbotron */
