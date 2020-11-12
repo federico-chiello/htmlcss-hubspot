@@ -39,7 +39,7 @@ a {
 /* Inizio intestazione */
 header {
   height: 600px;
-  background-color: lightblue;
+  background-color: blue;
 }
 
 .header-navbar {
@@ -50,7 +50,7 @@ header {
 .navbar-top {
   height: 90px;
   line-height: 90px;
-  background-color: pink;
+  background-color: rgb(205, 226, 224);
 }
 
 .navbar-top ul li {
@@ -59,21 +59,36 @@ header {
   padding: 0 10px;
 }
 
+/* Inizio lista di sinistra */
 .navbar-top .lista-sinistra li a {
   color: rgba(5, 5, 5, 0.82);
 }
 
+#contact-us {
+  border-left: 1px solid grey;
+}
+/* / lista di sinistra */
+
+/* Lista di destra */
 .fa-search{
   color: rgb(90, 100, 237);
 }
 
 .log {
   color: rgb(251, 121, 65);
+  background-color: white;
+  border: 1px solid rgb(251, 121, 65);
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .get {
   color: white;
+  background-color: rgb(251, 121, 65);
+  border-radius: 5px;
+  padding: 10px;
 }
+/* / lista di destra */
 
 .navbar-bottom {
   height: 90px;
