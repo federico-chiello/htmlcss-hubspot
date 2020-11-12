@@ -47,6 +47,7 @@ header {
   background-color: grey;
 }
 
+/* Navbar-top */
 .navbar-top {
   height: 90px;
   line-height: 90px;
@@ -66,6 +67,7 @@ header {
 
 #contact-us {
   border-left: 1px solid grey;
+  padding-left: 20px;
 }
 /* / lista di sinistra */
 
@@ -89,6 +91,7 @@ header {
   padding: 10px;
 }
 /* / lista di destra */
+/* / navbar-top */
 
 .navbar-bottom {
   height: 90px;
