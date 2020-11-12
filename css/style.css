@@ -38,9 +38,19 @@ header {
   background-color: lightblue;
 }
 
-.header-nav {
+.header-navbar {
   height: 30%;
   background-color: grey;
+}
+
+.navbar-top {
+  height: 50%;
+  background-color: pink;
+}
+
+.navbar-bottom {
+  height: 50%;
+  background-color: white;
 }
 
 /* / intestazione */
