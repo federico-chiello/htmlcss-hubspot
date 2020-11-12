@@ -28,7 +28,7 @@ body {
   width: 80%;
   height: 100%;
   margin: 0 auto;
-  background-color: violet;
+  /* background-color: violet; */
 }
 
 ul li {
@@ -52,19 +52,19 @@ i {
 
 /* Inizio intestazione */
 header {
-  height: 600px;
+  height: 900px;
   background-color: blue;
 }
 
 .header-navbar {
-  height: 180px;
-  background-color: grey;
+  height: 270px;
+  /* background-color: grey; */
 }
 
 /* Navbar-top */
 .navbar-top {
-  height: 90px;
-  line-height: 90px;
+  height: 135px;
+  line-height: 135px;
   background-color: rgb(205, 226, 224);
 }
 
@@ -103,8 +103,8 @@ header {
 
 /* Navbar-bottom */
 .navbar-bottom {
-  height: 90px;
-  line-height: 90px;
+  height: 135px;
+  line-height: 135px;
   background-color: white;
 }
 
@@ -115,33 +115,39 @@ header {
 
 /* Inizio jumbotron */
 .jumbotron {
-  height: 420px;
-  width: 50%;
-  background-color: lightgreen;
-  position: relative;
+  height: 630px;
+  width: 100%;
+  /* background-color: lightgreen; */
+  background-image: url('../img/jumbotron.png');
 }
 
 .informazioni {
-  position: absolute;
-  top: 15%;
-  left: 0;
-  transform: translateY(-15%);
+  position: relative;
+  width: 50%;
+  height: 630px;
 }
 
-.informazioni h1 {
+.testo {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  transform: translateY(-30%);
+}
+
+.testo h1 {
   font-size: 50px;
   margin-bottom: 30px;
 }
 
-.informazioni p{
+.testo p{
   margin-bottom: 30px;
 }
 
-.informazioni ul li {
+.testo ul li {
   margin-bottom: 30px;
 }
 
-.informazioni ul li a{
+.testo ul li a{
   padding: 20px;
   background-color: rgb(251, 121, 65);
 }
