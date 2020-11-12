@@ -48,29 +48,35 @@ header {
 }
 
 .navbar-top {
-  height: 50%;
+  height: 90px;
+  line-height: 50%;
   background-color: pink;
 }
 
 .navbar-top ul li {
   display: inline-block;
   list-style: none;
+  padding: 0 10px;
 }
 
 .navbar-top .lista-sinistra li a {
   color: rgba(5, 5, 5, 0.82);
 }
 
-.fasfa-search{
-  color: lightblue;
+.fa-search{
+  color: rgb(90, 100, 237);
 }
 
 .log {
-  color: orange;
+  color: rgb(251, 121, 65);
+}
+
+.get {
+  color: white;
 }
 
 .navbar-bottom {
-  height: 50%;
+  height: 90px;
   background-color: white;
 }
 
