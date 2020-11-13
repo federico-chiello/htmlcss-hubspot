@@ -175,14 +175,16 @@ i {
 /* Inizio corpo principale */
 main {
   height: 1500px;
-  background-color: green;
+  background-color: #F5F8FA;
 }
 
+/* Inizio sezione powerful */
 .powerful {
   height: 30%;
   width: 100%;
   background-color: grey;
 }
+/* / sezione powerful */
 
 /* /corpo principale */
 
