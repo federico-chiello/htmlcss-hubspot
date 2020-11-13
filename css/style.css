@@ -244,6 +244,18 @@ main {
   display: inline;
   width: 60%;
 }
+
+.lean-more-right ul {
+  margin-top: 20px;
+}
+
+.lean-more-right ul li {
+  padding-left: 0;
+}
+
+.lean-more-right ul li i {
+  color: rgb(251, 121, 65);
+}
 /* / sezione powerful */
 
 
