@@ -200,17 +200,19 @@ main {
 }
 
 .lean-more {
-  height: 200px;
+  /* height: 300px; */
   background-color: white;
 }
 
 .lean-more-left {
   width: 25%;
   text-align: center;
+  /* line-height: 300px; */
 }
 
 .libro {
-  width: 150px;
+  width: 130px;
+  margin-top: 50px;
 }
 
 .btn {
@@ -218,6 +220,9 @@ main {
   background-color: rgb(251, 121, 65);
   border-radius: 5px;
   padding: 10px;
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 40px;
 }
 
 .lean-more-right {
@@ -225,8 +230,19 @@ main {
   text-align: left;
 }
 
+.lean-more-right h3{
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
 .lean-more-right h4 {
   text-transform: uppercase;
+}
+
+.lean-more-right h4::after {
+  content: '';
+  display: inline;
+  width: 60%;
 }
 /* / sezione powerful */
 
