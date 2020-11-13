@@ -251,7 +251,6 @@ main {
 
 .lean-more-right ul {
   margin: 20px 0;
-
 }
 
 .lean-more-right ul li {
@@ -264,6 +263,18 @@ main {
 /* / sezione powerful */
 
 /* Inizio sezione hub */
+.hub {
+  height: 700px;
+  background-color: lightblue;
+}
+
+.prodotti {
+  width: calc(100% / 3);
+  height: 200px;
+  background-color: blue;
+  display: inline-block;
+}
+
 
 /* / sezione hub */
 
