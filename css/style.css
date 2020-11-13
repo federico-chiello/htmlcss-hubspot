@@ -174,8 +174,14 @@ i {
 
 /* Inizio corpo principale */
 main {
-  height: 1000px;
-  background-color: red;
+  height: 1500px;
+  background-color: green;
+}
+
+.powerful {
+  height: 30%;
+  width: 100%;
+  background-color: grey;
 }
 
 /* /corpo principale */
@@ -183,7 +189,7 @@ main {
 /* Inizio parte finale */
 footer {
   height: 400px;
-  background-color: green;
+  background-color: blue;
 }
 
 /* /parte finale */
