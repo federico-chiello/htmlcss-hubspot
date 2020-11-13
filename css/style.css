@@ -273,10 +273,15 @@ main {
   height: 200px;
   background-color: blue;
   display: inline-block;
+  text-align: center;
 }
 
 .prodotto.center {
   margin: 0 4%;
+}
+
+.hub img {
+  width: 130px;
 }
 
 
