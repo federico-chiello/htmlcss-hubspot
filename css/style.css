@@ -5,7 +5,7 @@
 }
 
 body {
-  background: green;
+  /* background: green; */
   font-family: 'Roboto', sans-serif;
 }
 
@@ -24,7 +24,7 @@ body {
   float: right;
 }
 
-.contenitore {
+.full-width {
   width: 100%;
 }
 
@@ -36,7 +36,7 @@ body {
 
 ul li {
  display: inline-block;
- padding: 0 15px;
+ padding: 0 10px;
 }
 
 li {
@@ -54,19 +54,18 @@ i {
 /* / classi riutilizzabili */
 
 /* Inizio intestazione */
-header {
-  height: 900px;
-}
-
-.header-navbar {
-  height: 270px;
-}
 
 /* Navbar-top */
 .navbar-top {
-  height: 135px;
-  line-height: 135px;
+  height: 125px;
+  line-height: 125px;
   background-color: rgb(205, 226, 224);
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
 }
 
 /* Inizio nav di sinistra */
@@ -104,9 +103,11 @@ header {
 
 /* Navbar-bottom */
 .navbar-bottom {
-  height: 135px;
-  line-height: 135px;
+  height: 125px;
+  line-height: 125px;
   background-color: white;
+  width: 100%;
+  margin-top: 125px;
 }
 
 .navbar-bottom .nav li a {
@@ -116,11 +117,12 @@ header {
 
 /* Inizio jumbotron */
 .jumbotron {
-  height: 630px;
+  height: 650px;
   width: 100%;
   background-image: url('../img/jumbotron.png');
   background-size: 100%;
   position: relative;
+  /* box-shadow: inset 2px 2px 0.2px; */
 }
 
 .informazioni {
@@ -156,13 +158,14 @@ header {
 }
 
 .jumbotron-bottom {
-  height: 60px;
+  height: 75px;
   width: 100%;
   background-color: rgb(161, 230, 211);
   position: absolute;
   bottom: 0;
   left: 0;
-  border: 1px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 /* / jumbotron */
