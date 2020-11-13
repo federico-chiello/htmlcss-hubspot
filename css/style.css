@@ -268,11 +268,15 @@ main {
   background-color: lightblue;
 }
 
-.prodotti {
-  width: calc(100% / 3);
+.prodotto {
+  width: calc(92% / 3);
   height: 200px;
   background-color: blue;
   display: inline-block;
+}
+
+.prodotto.center {
+  margin: 0 4%;
 }
 
 
