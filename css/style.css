@@ -180,7 +180,7 @@ main {
 
 /* Inizio sezione powerful */
 .powerful {
-  height: 40%;
+  height: 700px;
   width: 100%;
   background-color: grey;
   text-align: center;
@@ -200,7 +200,7 @@ main {
 }
 
 .lean-more {
-  height: 80px;
+  height: 200px;
   background-color: white;
 }
 
