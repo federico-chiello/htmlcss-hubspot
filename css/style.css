@@ -50,11 +50,11 @@ a {
 i {
   padding: 0 5px;
 }
-
 /* / classi riutilizzabili */
 
-/* Inizio intestazione */
 
+
+/* Inizio intestazione */
 /* Navbar-top */
 .navbar-top {
   height: 125px;
@@ -167,10 +167,10 @@ i {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
-
 /* / jumbotron */
-
 /* / intestazione */
+
+
 
 /* Inizio corpo principale */
 main {
@@ -180,13 +180,62 @@ main {
 
 /* Inizio sezione powerful */
 .powerful {
-  height: 30%;
+  height: 40%;
   width: 100%;
   background-color: grey;
+  text-align: center;
+}
+
+.cubo {
+  width: 300px;
+  margin-top: 40px;
+}
+
+.powerful h2 {
+  margin-bottom: 40px;
+}
+
+.powerful p {
+  margin-bottom: 40px;
+}
+
+.lean-more {
+  height: 80px;
+  background-color: white;
+}
+
+.lean-more-left {
+  width: 25%;
+  text-align: center;
+}
+
+.libro {
+  width: 150px;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(251, 121, 65);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.lean-more-right {
+  width: 75%;
+  text-align: left;
+}
+
+.lean-more-right h4 {
+  text-transform: uppercase;
 }
 /* / sezione powerful */
 
+
+
+
 /* /corpo principale */
+
+
 
 /* Inizio parte finale */
 footer {
