@@ -325,17 +325,35 @@ main {
 
 .learn-grow h2, p {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .learn-grow h2 {
   padding-top: 30px;
-  margin-bottom: 20px;
 }
 
 .box-community {
   width: 100%;
   height: 300px;
   background-color: violet;
+}
+
+.row-top {
+  height: 150px;
+  width: 100%;
+  background-color: green;
+}
+
+.row-bottom {
+  height: 150px;
+  width: 100%;
+  background-color: pink;
+}
+
+.item {
+  width: calc(100% / 4);
+  height: 100%;
+  background-color: grey;
 }
 
 
