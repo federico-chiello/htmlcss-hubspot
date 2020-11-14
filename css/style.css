@@ -356,6 +356,16 @@ main {
   background-color: grey;
 }
 
+.icon {
+  height: 30%;
+  background-color: green;
+}
+
+.wrapper {
+  height: 70%;
+  background-color: lightblue;
+}
+
 
 /* / section learn-grow */
 
