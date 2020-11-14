@@ -310,9 +310,11 @@ main {
 .prodotto .btn {
   margin-bottom: 20px;
 }
-
-
 /* / sezione hub */
+
+/* Inizio section learn-grow */
+
+/* / section learn-grow */
 
 
 
@@ -323,7 +325,7 @@ main {
 
 /* Inizio parte finale */
 footer {
-  height: 400px;
+  height: 100px;
   background-color: blue;
 }
 
