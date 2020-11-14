@@ -258,6 +258,10 @@ main {
 /* / sezione powerful */
 
 /* Inizio sezione hub */
+.hub {
+  margin-bottom: 30px;
+}
+
 .prodotto {
   width: calc(92% / 3);
   background-color: white;
@@ -313,6 +317,21 @@ main {
 /* / sezione hub */
 
 /* Inizio section learn-grow */
+.learn-grow {
+  height: 400px;
+  background-color: #00B4AD;
+  color: white;
+}
+
+.learn-grow h2, p {
+  text-align: center;
+}
+
+.learn-grow h2 {
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
 
 /* / section learn-grow */
 
