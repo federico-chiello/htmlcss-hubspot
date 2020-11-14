@@ -371,8 +371,20 @@ main {
   margin: 0 auto;
 }
 
-.icon h2 {
+.wrapper h2 {
   font-size: 50px;
+  position: relative;
+}
+
+.wrapper h2::after {
+  content: "+";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .wrapper {
