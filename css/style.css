@@ -332,6 +332,12 @@ main {
   margin-bottom: 20px;
 }
 
+.box-community {
+  width: 100%;
+  height: 300px;
+  background-color: violet;
+}
+
 
 /* / section learn-grow */
 
@@ -343,9 +349,6 @@ main {
 
 
 /* Inizio parte finale */
-footer {
-  height: 100px;
-  background-color: blue;
-}
+
 
 /* /parte finale */
