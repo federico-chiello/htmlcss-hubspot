@@ -317,7 +317,7 @@ main {
 
 /* Inizio section learn-grow */
 .learn-grow {
-  height: 400px;
+  height: 500px;
   background-color: #00B4AD;
   color: white;
 }
@@ -333,24 +333,32 @@ main {
 
 .box-community {
   width: 100%;
-  height: 300px;
+  margin-bottom: 50px;
 }
 
 .row-top {
   height: 150px;
   width: 100%;
+  margin-top: 30px;
 }
 
 .row-bottom {
   height: 150px;
   width: 100%;
-  background-color: pink;
 }
 
 .item {
   width: calc(100% / 4);
   height: 100%;
   border-right: 1px solid white;
+}
+
+.item:last-child {
+  border-right: none;
+}
+
+.row-top {
+  border-bottom: 1px solid white;
 }
 
 .icon {
@@ -365,6 +373,11 @@ main {
   bottom: 0;
   left: 0;
   margin: 0 auto;
+  padding-top: 10px;
+}
+
+#hubspot-marketlace {
+  font-weight: 100;
 }
 
 .wrapper h2 {
