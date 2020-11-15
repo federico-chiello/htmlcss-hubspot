@@ -317,9 +317,9 @@ main {
 
 /* Inizio section learn-grow */
 .learn-grow {
-  height: 500px;
   background-color: #00B4AD;
   color: white;
+  padding: 30px 0 50px;
 }
 
 .learn-grow h2, p {
@@ -340,6 +340,7 @@ main {
   height: 150px;
   width: 100%;
   margin-top: 30px;
+  border-bottom: 1px solid white;
 }
 
 .row-bottom {
@@ -355,10 +356,6 @@ main {
 
 .item:last-child {
   border-right: none;
-}
-
-.row-top {
-  border-bottom: 1px solid white;
 }
 
 .icon {
@@ -399,11 +396,16 @@ main {
   font-size: 20px;
   margin-top: 20px;
 }
-
-
-
-
 /* / section learn-grow */
+
+/* Inizio section start-growing */
+.start-growing {
+  height: 400px;
+  background-color: white;
+}
+
+
+/* / start-growing */
 
 
 
