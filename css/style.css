@@ -47,6 +47,10 @@ a {
   text-decoration: none;
 }
 
+a .greater{
+  padding: 20px 30px;
+}
+
 i {
   padding: 0 5px;
 }
@@ -155,10 +159,6 @@ i {
 
 .testo ul li {
   margin-bottom: 40px;
-}
-
-#greater{
-  padding: 20px 30px;
 }
 
 .jumbotron-bottom {
@@ -443,6 +443,20 @@ main {
   height: 70%;
   background-color: violet;
 }
+
+.text-left {
+  width: 50%;
+}
+
+.start-growing-bottom h2 {
+  font-size: 40px;
+}
+
+.start-growing-bottom h2,p,ul {
+  margin-bottom: 40px;
+}
+
+
 
 /* / start-growing-bottom */
 
