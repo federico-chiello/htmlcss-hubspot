@@ -423,6 +423,10 @@ main {
   background-color: green;
 }
 
+.text-right img {
+  width: 100px;
+}
+
 
 .start-growing-bottom {
   height: 70%;
