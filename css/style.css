@@ -471,7 +471,7 @@ main .start-growing .start-growing-bottom h2,p,ul {
 
 /* Inizio parte finale */
 footer {
-  background-color: grey;
+  background-color: #2D3E50;
   height: 1000px;
   color: white;
 }
@@ -502,8 +502,12 @@ footer {
   color: white;
 }
 
+.footer-top i {
+  padding-right: 20px;
+}
+
 #button {
-  color: grey;
+  color: #2D3E50;
   padding: 10px 5px;
   border-radius: 5px;
   background-color: white;
