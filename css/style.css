@@ -440,11 +440,10 @@ main {
 
 /* Inizio start-growing-bottom */
 .start-growing-bottom {
-  height: 70%;
-  background-color: violet;
+  /* height: 70%; */
 }
 
-.text-left {
+.box-left {
   width: 50%;
 }
 
@@ -453,7 +452,12 @@ main {
 }
 
 .start-growing-bottom h2,p,ul {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.box-right img {
+  width: 300px;
 }
 
 
