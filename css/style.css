@@ -61,6 +61,11 @@ i {
   border-radius: 5px;
   padding: 10px;
 }
+
+.learn {
+  width: 40%;
+  margin: 0 auto;
+}
 /* / classi riutilizzabili */
 
 
@@ -68,7 +73,6 @@ i {
 /* Inizio intestazione */
 /* Navbar-top */
 .navbar-top {
-  height: 125px;
   line-height: 125px;
   background-color: rgb(205, 226, 224);
   border-bottom: 1px solid black;
@@ -107,7 +111,6 @@ i {
 
 /* Navbar-bottom */
 .navbar-bottom {
-  height: 125px;
   line-height: 125px;
   background-color: white;
   width: 100%;
@@ -121,8 +124,6 @@ i {
 
 /* Inizio jumbotron */
 .jumbotron {
-  height: 650px;
-  width: 100%;
   background-image: url('../img/jumbotron.png');
   background-size: 100%;
   position: relative;
@@ -149,6 +150,7 @@ i {
 
 .jumbotron .informazioni .testo p{
   margin-bottom: 40px;
+  text-align: left;
 }
 
 .testo ul li {
@@ -160,7 +162,7 @@ i {
 }
 
 .jumbotron-bottom {
-  height: 75px;
+  height: 55px;
   width: 100%;
   background-color: rgb(161, 230, 211);
   position: absolute;
@@ -182,7 +184,6 @@ main {
 
 /* Inizio sezione powerful */
 .powerful {
-  width: 100%;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -214,11 +215,6 @@ main {
   margin-top: 50px;
 }
 
-.learn {
-  width: 50%;
-  margin: 0 auto;
-}
-
 .learn-more-right {
   width: 75%;
   text-align: left;
@@ -231,6 +227,7 @@ main {
 
 .learn-more-right p {
   width: 70%;
+  text-align: left;
 }
 
 .learn-more-right h4 {
@@ -258,7 +255,7 @@ main {
 
 /* Inizio sezione hub */
 .hub {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .prodotto {
@@ -319,7 +316,7 @@ main {
 .learn-grow {
   background-color: #00B4AD;
   color: white;
-  padding: 30px 0 50px;
+  padding: 30px 0 60px;
 }
 
 .learn-grow h2, p {
@@ -337,7 +334,6 @@ main {
 }
 
 .row-top {
-  height: 150px;
   width: 100%;
   margin-top: 30px;
   border-bottom: 1px solid white;
@@ -350,7 +346,6 @@ main {
 
 .item {
   width: calc(100% / 4);
-  height: 100%;
   border-right: 1px solid white;
 }
 
@@ -359,8 +354,9 @@ main {
 }
 
 .icon {
-  height: 20%;
   position: relative;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .icon img {
@@ -380,12 +376,8 @@ main {
 .wrapper h2 {
   font-size: 50px;
   position: relative;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
   padding-top: 20px;
-}
-
-.wrapper {
-  height: 80%;
 }
 
 .wrapper h2::after {
@@ -408,6 +400,29 @@ main {
   height: 30%;
   background-color: pink;
 }
+
+.start-growing-top h2{
+  font-size: 50px;
+}
+
+.text-left {
+  height: 100%;
+  width: 30%;
+  background-color: white;
+  padding-left: 60px;
+  padding-right: 40px;
+}
+
+.text-left p {
+  text-align: left;
+}
+
+.text-right {
+  height: 100%;
+  width: 70%;
+  background-color: green;
+}
+
 
 .start-growing-bottom {
   height: 70%;
