@@ -396,21 +396,22 @@ main {
   background-color: white;
 }
 
+/* Inizio start-growing-top */
 .start-growing-top {
-  height: 30%;
-  background-color: pink;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .start-growing-top h2{
-  font-size: 50px;
+  font-size: 40px;
+  margin-bottom: 50px;
 }
 
 .text-left {
-  height: 100%;
   width: 30%;
   background-color: white;
   padding-left: 60px;
-  padding-right: 40px;
+  padding-right: 100px;
 }
 
 .text-left p {
@@ -418,9 +419,7 @@ main {
 }
 
 .text-right {
-  height: 100%;
   width: 50%;
-  background-color: green;
 }
 
 .text-right img {
@@ -434,25 +433,18 @@ main {
   margin-bottom: 30px;
 }
 
-.text-right .img-top {
-  background-color: blue;
+.text-right .img-top,.img-bottom {
   text-align: right;
 }
+/* / start-growing-top */
 
-.text-right .img-bottom {
-  background-color: pink;
-  text-align: right;
-}
-
-.text-right .img-bottom:last-child {
-  margin-right: 0;
-}
-
-
+/* Inizio start-growing-bottom */
 .start-growing-bottom {
   height: 70%;
   background-color: violet;
 }
+
+/* / start-growing-bottom */
 
 /* / start-growing */
 
