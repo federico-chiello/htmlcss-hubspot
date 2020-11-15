@@ -400,10 +400,19 @@ main {
 
 /* Inizio section start-growing */
 .start-growing {
-  height: 400px;
+  height: 600px;
   background-color: white;
 }
 
+.start-growing-top {
+  height: 30%;
+  background-color: pink;
+}
+
+.start-growing-bottom {
+  height: 70%;
+  background-color: violet;
+}
 
 /* / start-growing */
 
