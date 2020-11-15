@@ -419,12 +419,33 @@ main {
 
 .text-right {
   height: 100%;
-  width: 70%;
+  width: 50%;
   background-color: green;
 }
 
 .text-right img {
   width: 100px;
+  padding: 10px 0px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.text-right .img-top {
+  margin-bottom: 30px;
+}
+
+.text-right .img-top {
+  background-color: blue;
+  text-align: right;
+}
+
+.text-right .img-bottom {
+  background-color: pink;
+  text-align: right;
+}
+
+.text-right .img-bottom:last-child {
+  margin-right: 0;
 }
 
 
