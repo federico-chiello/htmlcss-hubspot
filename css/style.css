@@ -476,13 +476,21 @@ footer {
   color: white;
 }
 
+.container {
+  position: relative;
+}
+
+/* Inizio footer-top */
 .footer-top {
-  height: 80%;
-  background-color: lightgreen;
+  /* height: 80%; */
+}
+
+.column {
+  padding-bottom: 140px;
 }
 
 .footer-top .col {
-  padding-right: 130px;
+  padding-right: 90px;
 }
 
 .col:last-child {
@@ -493,7 +501,7 @@ footer {
   padding: 30px 0;
 }
 
-.footer-top ul li {
+.footer-top .container .column ul li {
   display: block;
   padding-bottom: 20px;
 }
@@ -512,6 +520,21 @@ footer {
   border-radius: 5px;
   background-color: white;
 }
+
+.language {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.language ul {
+  text-align: center;
+}
+
+.language li a {
+  display: inline;
+}
+/* / footer top */
 
 .footer-bottom {
   height: 20%;
