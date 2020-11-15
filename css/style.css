@@ -47,7 +47,7 @@ a {
   text-decoration: none;
 }
 
-a .greater{
+ul li a.greater{
   padding: 20px 30px;
 }
 
@@ -156,12 +156,12 @@ i {
 }
 
 .jumbotron .informazioni .testo p{
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   text-align: left;
 }
 
 .testo ul li {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .jumbotron-bottom {
@@ -481,8 +481,6 @@ footer {
 }
 
 /* Inizio footer-top */
-.footer-top {
-}
 
 .column {
   padding-bottom: 140px;
