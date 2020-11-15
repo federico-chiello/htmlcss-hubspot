@@ -133,6 +133,7 @@ i {
   background-image: url('../img/jumbotron.png');
   background-size: 100%;
   position: relative;
+  padding-bottom: 65px;
 }
 
 .informazioni {
@@ -488,7 +489,7 @@ footer {
 }
 
 .footer-top .col {
-  padding-right: 90px;
+  padding-right: 130px;
 }
 
 .col:last-child {
@@ -522,15 +523,16 @@ footer {
 .language {
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 25%;
 }
 
 .language ul {
-  text-align: center;
+  padding-bottom: 20px;
 }
 
 .language li a {
   display: inline;
+  padding: 0 10px;
 }
 /* / footer top */
 
