@@ -76,8 +76,8 @@ i {
 /* Inizio intestazione */
 /* Navbar-top */
 .navbar-top {
-  height: 125px;
-  line-height: 125px;
+  height: 80px;
+  line-height: 80px;
   background-color: rgb(205, 226, 224);
   border-bottom: 1px solid black;
   position: fixed;
@@ -115,11 +115,11 @@ i {
 
 /* Navbar-bottom */
 .navbar-bottom {
-  height: 125px;
-  line-height: 125px;
+  height: 80px;
+  line-height: 80px;
   background-color: white;
   width: 100%;
-  margin-top: 125px;
+  margin-top: 80px;
 }
 
 .navbar-bottom .nav li a {
@@ -129,10 +129,12 @@ i {
 
 /* Inizio jumbotron */
 .jumbotron {
+  height: 695px;
   background-image: url('../img/jumbotron.png');
-  background-size: 100%;
+  background-position: right top;
+  background-repeat: no-repeat;
   position: relative;
-  padding-bottom: 65px;
+  background-color: #fff4ef;
 }
 
 .informazioni {
@@ -164,13 +166,15 @@ i {
   margin-bottom: 20px;
 }
 
-.jumbotron-bottom {
-  height: 8%;
+.jumbotron::before {
+  height: 80px;
   width: 100%;
   background-color: rgb(161, 230, 211);
   position: absolute;
   bottom: 0;
   left: 0;
+  content: '';
+  display: block;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
@@ -488,11 +492,12 @@ footer {
 }
 
 .footer-top .col {
-  padding-right: 130px;
+  width: calc(76% / 4);
+  margin-right: 8%;
 }
 
 .col:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .footer-top h4 {
@@ -502,6 +507,11 @@ footer {
 .footer-top .container .column ul li {
   display: block;
   padding-bottom: 20px;
+  margin-right: 0;
+}
+
+.column .col ul li:last-child {
+  padding-bottom: 0;
 }
 
 .footer-top ul li a {
