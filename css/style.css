@@ -135,6 +135,7 @@ i {
   background-repeat: no-repeat;
   position: relative;
   background-color: #fff4ef;
+  box-shadow: inset 0 10px 8px rgba(0, 0, 0, 0.1);
 }
 
 .informazioni {
@@ -211,6 +212,7 @@ main {
 
 .learn-more {
   background-color: white;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1);
 }
 
 .learn-more-left {
@@ -272,6 +274,7 @@ main {
   background-color: white;
   display: inline-block;
   text-align: center;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.1);
 }
 
 .prodotto.center {
