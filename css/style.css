@@ -5,7 +5,6 @@
 }
 
 body {
-  /* background: green; */
   font-family: 'Roboto', sans-serif;
 }
 
@@ -158,6 +157,7 @@ i {
 .jumbotron .informazioni .testo p{
   margin-bottom: 20px;
   text-align: left;
+  color: #33475B;
 }
 
 .testo ul li {
@@ -165,7 +165,7 @@ i {
 }
 
 .jumbotron-bottom {
-  height: 55px;
+  height: 8%;
   width: 100%;
   background-color: rgb(161, 230, 211);
   position: absolute;
@@ -181,8 +181,8 @@ i {
 
 /* Inizio corpo principale */
 main {
-  /* height: 3000px; */
   margin-bottom: 30px;
+  color: #33475B;
 }
 
 /* Inizio sezione powerful */
@@ -420,6 +420,7 @@ main {
 
 .text-left p {
   text-align: left;
+  line-height: 1.6;
 }
 
 .text-right {
@@ -521,7 +522,8 @@ footer {
 .language {
   position: absolute;
   bottom: 0;
-  left: 25%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .language ul {
@@ -534,6 +536,7 @@ footer {
 }
 /* / footer top */
 
+/* Inizio footer-bottom */
 .footer-bottom {
   padding: 30px 0;
 }
@@ -541,5 +544,6 @@ footer {
 .footer-bottom a {
   color: white;
 }
+/* / footer-bottom */
 
 /* /parte finale */
