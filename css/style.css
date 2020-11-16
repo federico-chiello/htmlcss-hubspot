@@ -8,7 +8,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.widget {
+.widgets {
   height: 200px;
   width: 350px;
   background-color: white;
@@ -17,6 +17,20 @@ body {
   right: 0;
   z-index: 1;
   line-height: 1.6;
+}
+
+.widget {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#robot {
+  width: 70px;
+  position: absolute;
+  top: -5%;
+  right: 40%;
+  transform: translate(5%,-40%);
 }
 
 /* Classi riutilizzabili */
