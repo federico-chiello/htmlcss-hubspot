@@ -8,6 +8,17 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.widget {
+  height: 200px;
+  width: 350px;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  line-height: 1.6;
+}
+
 /* Classi riutilizzabili */
 .clearfix::after {
   content: '';
